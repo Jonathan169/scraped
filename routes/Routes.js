@@ -15,7 +15,7 @@ app.get("/scrape", function(req, res) {
         }
       });
       db.Article.insertMany(result,{ordered:1})
-      .then(function(dbArticle) {console.log(dbArticle);}).catch(function(err) {console.log(err);});
+      .then(function(dbArticle) {console.log(dbArticle);});
       res.send("/done");
     });
   });
