@@ -1,0 +1,29 @@
+body { 
+    background-image:url("./back.jpg");
+    background-size: cover;
+}
+#articles {
+  overflow: auto;
+  width: 60%;
+  height: 70vh;
+}
+.card{
+    margin:2%;
+}
+#notes {
+  width: 80%;
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: rgb(237, 239, 250);
+  margin:2%;
+}
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+#savenote{
+    width:35%;
+    margin-left:35%;
+}
