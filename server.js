@@ -13,6 +13,8 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines
 mongoose.connect(MONGODB_URI,{ useNewUrlParser: true });
 
 require("./routes/Routes")(app)
+require("./routes/html")(app)
+
 app.listen(PORT, function() {
   console.log("App running on port " + PORT + "!");
 });
