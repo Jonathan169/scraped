@@ -9,6 +9,6 @@
 * click the link if you would like to visit the article
 * if you have time peep the "your world" card
 
-### Heres a screen shot of the page
+### Heres a screen shot of the page which when clicked will take you to my project!
 
-![scraped homework](public/screen.png)
+[![scraped homework](public/screen.png)](https://young-gorge-15738.herokuapp.com/)
